@@ -29,9 +29,9 @@ def total_even_pairs(src)
   while row < src.count do
     element_sum = 0
 
-#    if ((src[row][0] % 2) == 0) && ((src[row][1] % 2) == 0)
-#      element_sum += ((src[row][0] + (src[row][1])
-#    end
+    if ((src[row][0] % 2) == 0) && ((src[row][1] % 2) == 0)
+      element_sum += ((src[row][0] + (src[row][1]))
+    end
 
     sum += element_sum
     row += 1
